@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add
+                id="BasilMH_ContactUsExt::contact_messages"
+                title="Contact Form Messages"
+                translate="title"
+                module="BasilMH_ContactUsExt"
+                sortOrder="75"
+                parent="Magento_Backend::marketing_communications"
+                action="contactusext/index"
+                resource="BasilMH_ContactUsExt::contact_messages"
+        />
+    </menu>
+</config>
